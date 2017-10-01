@@ -1,0 +1,60 @@
+body{
+background-image: url(bg.png);
+/*background-size: 100%;*/
+}
+
+#me{
+
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 45px;
+}
+
+#motto{
+
+  margin-top: 10px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-family: 'Pangolin', cursive;
+  color:#073c99;
+  font-size:18px;
+}
+
+#pic{
+
+  margin-left: 150px;
+  margin-top: 0px;
+}
+
+h2{
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  margin-top: 20px;
+  text-align: inherit;
+  margin-bottom: 0px;
+}
+
+#infolist{
+
+  text-align: left;
+  margin-right: 20px;
+  margin-top: 0px;
+
+}
+table{
+  margin-top: 45px;
+  margin: auto;
+}
+td{
+  background-color: inherit;
+  height: 450px;
+  width: 350px;
+  border:1px solid white;
+}
+#socialicons{
+
+  margin-top: 25px;
+
+}

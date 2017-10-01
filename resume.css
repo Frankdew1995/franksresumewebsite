@@ -1,0 +1,59 @@
+body{
+background-image: url(bg.png);
+/*background-size: 100%;*/
+}
+
+#timeframe{
+
+  margin-top: 10px;
+  margin-bottom: 25px;
+  text-align: center;
+  font-family: 'Pangolin', cursive;
+  color:#073c99;
+  font-size:18px;
+}
+
+table{
+  margin-top: 45px;
+  margin: auto;
+}
+th{
+  background-color: inherit;
+  border:1px solid white;
+  text-align: center;
+}
+td{
+  background-color: inherit;
+  height: 500px;
+  width: 350px;
+  border:1px solid white;
+}
+.timeline{
+
+  background-color: #ff724c;
+  color: white;
+}
+
+ul{
+
+  margin:inherit;
+}
+.progress-bar-striped{
+
+background-color:#ff724c;
+
+
+}
+
+.btn-warning{
+
+  background-color: #ff724c;
+  border-color: inherit;
+  margin-top: 400px;
+  color:white;
+
+}
+#linkedinbtn{
+
+  margin-top: 200px;
+}

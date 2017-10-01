@@ -1,0 +1,30 @@
+h4{
+
+  margin-top: 10px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-family: 'Pangolin', cursive;
+  color:#073c99;
+  font-size:18px;
+}
+.nav-item{
+  color: #ff724c;
+}
+
+#contact{
+
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 100px;
+
+}
+
+#map{
+
+  margin-top: 50px;
+}
+
+iframe{
+
+  margin-top: 50px;
+}
