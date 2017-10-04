@@ -1,6 +1,8 @@
 body{
 background-image: url(bg.png);
 /*background-size: 100%;*/
+font-family: 'Roboto', sans-serif;
+
 }
 
 #timeframe{
@@ -8,26 +10,11 @@ background-image: url(bg.png);
   margin-top: 10px;
   margin-bottom: 25px;
   text-align: center;
-  font-family: 'Pangolin', cursive;
+  font-family: 'Roboto', sans-serif;
   color:#073c99;
   font-size:18px;
 }
 
-table{
-  margin-top: 45px;
-  margin: auto;
-}
-th{
-  background-color: inherit;
-  border:1px solid white;
-  text-align: center;
-}
-td{
-  background-color: inherit;
-  height: 500px;
-  width: 350px;
-  border:1px solid white;
-}
 .timeline{
 
   background-color: #ff724c;
@@ -49,7 +36,8 @@ background-color:#ff724c;
 
   background-color: #ff724c;
   border-color: inherit;
-  margin-top: 400px;
+  margin-top: 150px;
+  margin-bottom: 150px;
   color:white;
 
 }
@@ -60,3 +48,9 @@ background-color:#ff724c;
 a:visited{
       color:#ff724c;
     }
+
+h4{
+
+  font-family: 'Roboto', sans-serif;
+
+}

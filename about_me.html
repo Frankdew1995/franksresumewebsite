@@ -8,83 +8,79 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel="stylesheet" href="about_me.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   </head>
   <body>
 
-    <nav class="navbar navbar-light bg-light">
-  <a class="navbar-brand" href="Home.html">
-    <img src="5a25109d-f277-463b-83a4-63a4623d7ae6.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
-    FRANKDU.CO
-  </a>
-  <ul class="nav justify-content-center">
-  <li class="nav-item">
-    <a class="nav-link active" href="Home.html">Home</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="about_me.html">About me</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="resume.html">Resume</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="Letschat.html">Let's chat!</a>
-  </li>
-</ul>
-  </nav>
+    <div class="container">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <br><a class="navbar-brand" href="Home.html"><img src="5a25109d-f277-463b-83a4-63a4623d7ae6.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
+      <font color="#ff724c">FRANKDU.CO</font>
+    </a></br>
+
+
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="Home.html"><font color="#ff724c">Home</font></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="about_me.html"><font color="#ff724c">About me</font></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="resume.html"><font color="#ff724c">Resume</font></a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" href="Letschat.html"><font color="#ff724c">Let's chat!</font></a>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+  </div>
 
     <center><font color="#ff724c"><h1 id="me">About me</h1></font></center>
 
       <h4 id="motto">#Less Is More</h4>
 
 
-        <!-- <center><h2>I'm currently working</h2></center>
-        <center><h2>@<a href="http://www.sourcepro.de"><span>Sourcepro GmbH</span></a> as a Business Developer</h2></center>
+      <div class="container" id="2nd">
+        <!--here i try to apply a grid system that adjust this part in different devices. But it doesn't work out! This is within a table-->
+        <div class="row">
+          <div class="col-lg-4 col-xs-6"><img src="2e78e6d8-583e-4851-b8ab-d4052f25aa7c.jpg" alt="" height="320" width="300"></div>
+          <div class="col-lg-4 col-xs-6" id="intro"><p><strong>I'm currently working @<span><a href="http://sourcepro.de" target="_blank">Sourcepro GmbH</a></span> as a Business Developer</strong></p></div>
+          <div class="col-lg-4 col-xs-6">
+            <ul id="infolist">
 
+              <ul><b>Age</b> 22</ul>
+              <ul><b>Residence</b> <a href="https://en.wikipedia.org/wiki/Essen" target="_blank">Essen,DE</a></ul>
+              <ul><b>Phone</b> +49-151-4527-2736</ul>
+              <ul><b>Email</b> <a href="mailto:frank@frankdu.co">frank@frankdu.co</a></ul>
+              <ul id="socialicons">
 
-      <img src="2e78e6d8-583e-4851-b8ab-d4052f25aa7c.jpg" height="300" width="280"alt="" id="pic">
-
-<ul id="infolist">
-
-  <ul>Age </ul>
-  <ul>Residence</ul>
-  <ul>Phone </ul>
-
-</ul> -->
-
-<table border="1" class="art">
-
-    <tr>
-      <td id="a"><img src="2e78e6d8-583e-4851-b8ab-d4052f25aa7c.jpg" alt="" height="320" width="300"></td>
-      <td id="b"><p><strong>I'm currently working @<span><a href="#">Sourcepro GmbH</a></span> as a Business Developer</strong></p></td>
-      <td id="c">
-        <ul id="infolist">
-
-          <ul><b>Age</b> 22</ul>
-          <ul><b>Residence</b> <a href="https://en.wikipedia.org/wiki/Essen" target="_blank">Essen,DE</a></ul>
-          <ul><b>Phone</b> +49-151-4527-2736</ul>
-          <ul><b>Email</b> <a href="mailto:frank@frankdu.co">frank@frankdu.co</a></ul>
-          <ul id="socialicons">
-
-              <a href="http://imgur.com/a/mA9lr" target="_blank"><img src="social-wechat-square2-32.png" alt=""></a>
-              <a href="https://www.linkedin.com/in/frankdu1995/" target="_blank"><img src="linkedin_square_color-32.png" alt=""></a>
-              <a href="https://t.me/Frankdew1995" target="_blank"><img src="Telegram-32.png" alt=""></a>
-              <a href="https://github.com/Frankdew1995" target="_blank"><img src="mark-github-32.png" alt=""></a>
-              <a href="https://join.skype.com/invite/nPmjatFX97UD" target="_blank"><img src="skype_circle_color-32.png" alt=""></a>
+                  <a href="http://imgur.com/a/mA9lr" target="_blank"><img src="social-wechat-square2-32.png" alt=""></a>
+                  <a href="https://www.linkedin.com/in/frankdu1995/" target="_blank"><img src="linkedin_square_color-32.png" alt=""></a>
+                  <a href="https://t.me/Frankdew1995" target="_blank"><img src="Telegram-32.png" alt=""></a>
+                  <a href="https://github.com/Frankdew1995" target="_blank"><img src="mark-github-32.png" alt=""></a>
+                  <a href="https://join.skype.com/invite/nPmjatFX97UD" target="_blank"><img src="skype_circle_color-32.png" alt=""></a>
 
 
 
 
 
-          </ul>
-
-        </ul>
-
-
-      </td>
-    </tr>
+              </ul>
+             </div>
+            </ul>
 
 
-</table>
+
+        </div>
+      </div>
 
 
 

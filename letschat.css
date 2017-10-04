@@ -3,7 +3,7 @@ h4{
   margin-top: 10px;
   margin-bottom: 5px;
   text-align: center;
-  font-family: 'Pangolin', cursive;
+  font-family: 'Roboto', sans-serif;
   color:#073c99;
   font-size:18px;
 }
@@ -31,3 +31,10 @@ iframe{
 a:visited{
       color:#ff724c;
     }
+
+body{
+
+  background-image: url(bg.png);
+  font-family: 'Roboto', sans-serif;
+
+}
