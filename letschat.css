@@ -27,6 +27,7 @@ h4{
 iframe{
 
   margin-top: 50px;
+  margin-bottom: 100px;
 }
 a:visited{
       color:#ff724c;
@@ -38,10 +39,4 @@ body{
   font-family: 'Roboto', sans-serif;
 
 }
-img{
-   display: none
-}
-
-span:hover + img{
-   display: block;
-}
+a
