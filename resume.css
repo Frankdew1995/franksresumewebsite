@@ -5,6 +5,11 @@ font-family: 'Roboto', sans-serif;
 
 }
 
+.breadcrumb-item{
+
+  color: #ff724c;
+}
+
 #timeframe{
 
   margin-top: 10px;
@@ -40,6 +45,14 @@ background-color:#ff724c;
   margin-bottom: 150px;
   color:white;
 
+}
+.btn-primary{
+  background-color: #ff724c;
+  border-color: inherit;
+
+}
+a:hover{
+  color:inherit;
 }
 #linkedinbtn{
 
