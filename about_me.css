@@ -10,6 +10,11 @@ margin-top: 20px;
 
 }
 
+.breadcrumb-item{
+
+  color: #ff724c;
+}
+
 #me{
 
   margin-top: 20px;
@@ -58,3 +63,6 @@ h2{
 a:visited{
       color:#ff724c;
     }
+  #qrcode{
+    margin-top: 10px;
+  }
