@@ -41,6 +41,14 @@ background-color:#ff724c;
   color:white;
 
 }
+.breadcrumb-item{
+
+  color: #ff724c;
+}
+
+.btn-primary{
+  background-color: #ff724c;
+  border-color: inherit;
 #linkedinbtn{
 
   margin-top: 200px;
