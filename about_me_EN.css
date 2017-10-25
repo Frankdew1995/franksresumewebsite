@@ -1,0 +1,64 @@
+body{
+background-image: url(bg.png);
+font-family: 'Roboto', sans-serif;
+
+}
+
+#intro{
+
+margin-top: 20px;
+
+}
+
+#me{
+
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 45px;
+}
+
+#motto{
+
+  margin-top: 10px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color:#073c99;
+  font-size:18px;
+}
+
+#pic{
+
+  margin-left: 150px;
+  margin-top: 0px;
+}
+
+h2{
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  margin-top: 20px;
+  text-align: inherit;
+  margin-bottom: 0px;
+}
+
+#infolist{
+
+  text-align: left;
+  margin-right: 20px;
+  margin-top: 0px;
+}
+
+#socialicons{
+
+  margin-top: 25px;
+
+}
+a:visited{
+      color:#ff724c;
+    }
+.breadcrumb-item{
+
+    color: #ff724c;
+  }

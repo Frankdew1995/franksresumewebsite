@@ -1,0 +1,45 @@
+h4{
+
+  margin-top: 10px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color:#073c99;
+  font-size:18px;
+}
+.nav-item{
+  color: #ff724c;
+}
+
+#contact{
+
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 100px;
+
+}
+
+#map{
+
+  margin-top: 50px;
+}
+
+iframe{
+
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+a:visited{
+      color:#ff724c;
+    }
+
+body{
+
+  background-image: url(bg.png);
+  font-family: 'Roboto', sans-serif;
+
+}
+.breadcrumb-item{
+
+  color: #ff724c;
+}
