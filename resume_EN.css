@@ -50,6 +50,7 @@ background-color:#ff724c;
   background-color: #ff724c;
   border-color: inherit;
   margin-bottom: 10px;
+
 #linkedinbtn{
 
   margin-top: 200px;
@@ -62,4 +63,9 @@ h4{
 
   font-family: 'Roboto', sans-serif;
 
+}
+
+#downloadbutton{
+
+  margin-top: 10px;
 }
